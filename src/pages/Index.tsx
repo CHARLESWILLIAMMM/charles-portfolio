@@ -1,5 +1,5 @@
 import { PortfolioPage, PortfolioPageProps } from "@/components/ui/starfall-portfolio-landing";
-import { Code2, Palette, Sparkles } from "lucide-react";
+import { Code2, Palette, Sparkles, Megaphone, Lightbulb, Smartphone } from "lucide-react";
 
 const portfolioData: PortfolioPageProps = {
   logo: {
@@ -52,6 +52,24 @@ const portfolioData: PortfolioPageProps = {
       description: 'Immersive WebGL experience with stunning 3D elements and animations.',
       tags: ['Three.js', 'WebGL', 'GLSL'],
       imageContent: <Palette className="w-12 h-12 text-primary/60" />,
+    },
+    {
+      title: 'Digital Marketing Campaign',
+      description: 'Full-scale digital marketing strategy with SEO optimization and social media integration.',
+      tags: ['SEO', 'Social Media', 'Analytics'],
+      imageContent: <Megaphone className="w-12 h-12 text-primary/60" />,
+    },
+    {
+      title: 'Innovative Brand Identity',
+      description: 'Complete brand redesign with modern aesthetics and comprehensive style guide.',
+      tags: ['Branding', 'Design System', 'UI/UX'],
+      imageContent: <Lightbulb className="w-12 h-12 text-accent/60" />,
+    },
+    {
+      title: 'Custom Web & App Development',
+      description: 'End-to-end development of responsive web applications and mobile apps.',
+      tags: ['React', 'TypeScript', 'Mobile'],
+      imageContent: <Smartphone className="w-12 h-12 text-primary/60" />,
     },
   ],
   stats: [
