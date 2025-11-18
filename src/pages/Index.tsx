@@ -3,8 +3,8 @@ import { Code2, Palette, Sparkles } from "lucide-react";
 
 const portfolioData: PortfolioPageProps = {
   logo: {
-    initials: 'MT',
-    name: 'Meng To',
+    initials: 'CW',
+    name: 'Charles william',
   },
   navLinks: [
     { label: 'About', href: '#about' },
