@@ -30,7 +30,7 @@ const portfolioData: PortfolioPageProps = {
     secondary: {
       label: 'Get In Touch',
       onClick: () => {
-        window.location.href = 'mailto:contact@example.com';
+        window.location.href = 'mailto:charleswilliamjoseph78@gmail.com';
       },
     },
   },
