@@ -1,5 +1,5 @@
 import { PortfolioPage, PortfolioPageProps } from "@/components/ui/starfall-portfolio-landing";
-import { Code2, Palette, Sparkles, Megaphone, Lightbulb, Smartphone } from "lucide-react";
+import { Code2, Palette, Sparkles, Megaphone, Lightbulb, Smartphone, Layers, Package, Image } from "lucide-react";
 
 const portfolioData: PortfolioPageProps = {
   logo: {
@@ -22,7 +22,7 @@ const portfolioData: PortfolioPageProps = {
   },
   ctaButtons: {
     primary: {
-      label: 'View My Work',
+      label: 'Skills I Offer',
       onClick: () => {
         document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
       },
@@ -70,6 +70,24 @@ const portfolioData: PortfolioPageProps = {
       description: 'End-to-end development of responsive web applications and mobile apps.',
       tags: ['React', 'TypeScript', 'Mobile'],
       imageContent: <Smartphone className="w-12 h-12 text-primary/60" />,
+    },
+    {
+      title: 'UX Design',
+      description: 'User-centered design solutions with wireframing, prototyping, and usability testing.',
+      tags: ['Figma', 'User Research', 'Prototyping'],
+      imageContent: <Layers className="w-12 h-12 text-accent/60" />,
+    },
+    {
+      title: 'Packaging Design',
+      description: 'Eye-catching product packaging that stands out on shelves and drives sales.',
+      tags: ['3D Mockups', 'Print Design', 'Branding'],
+      imageContent: <Package className="w-12 h-12 text-secondary/60" />,
+    },
+    {
+      title: 'Photoshop Thumbnail Creation',
+      description: 'Engaging thumbnails for YouTube, social media, and digital content platforms.',
+      tags: ['Photoshop', 'Graphics', 'Social Media'],
+      imageContent: <Image className="w-12 h-12 text-primary/60" />,
     },
   ],
   stats: [
