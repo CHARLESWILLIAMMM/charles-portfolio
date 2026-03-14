@@ -63,7 +63,7 @@ const AuroraBackground: React.FC = () => {
 
 // --- DEFAULT DATA ---
 const defaultData = {
-  logo: { initials: 'MT', name: 'Meng To' },
+  logo: { initials: 'CW', name: 'Charles William' },
   navLinks: [ { label: 'About', href: '#about' }, { label: 'Projects', href: '#projects' }, { label: 'Skills', href: '#skills' } ],
   resume: { label: 'Resume', onClick: () => {} },
   hero: { titleLine1: 'Creative Developer &', titleLine2Gradient: 'Digital Designer', subtitle: 'I craft beautiful digital experiences through code and design. Specializing in modern web development, UI/UX design, and bringing innovative ideas to life.', },
